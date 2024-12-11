@@ -9,3 +9,8 @@ NUM_OF_STUDENTS = len(student_pet_count_list)
 print(NUM_OF_STUDENTS)
 
 # average = sum / number of items
+total_pets = 0
+for count in student_pet_count_list:
+  total_pets += count
+
+print(total_pets / NUM_OF_STUDENTS)
